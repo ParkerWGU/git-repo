@@ -13,3 +13,9 @@ git push -  sends everything to the github
 git restore --staged "file name" - takes a specfic file out of the staging area
 git restore --staged . - takes all files in the staging area out of the staging area
 git restore . - deletes all changes made that arent in the staging area 
+git log - pulls up all of the old commits 
+git checkout "commit id" - this will take you back to view a specifc version of the git repository
+git checkout main - takes you back to the main working git repository
+git log --oneline - only shows you commit message and shortens id better for readability
+git revert commit id - removes a specifc change in the git history but not the history
+.gitignore - everything put in this file will be ignored by git, usefull for log files you can add file name to .gitignore to make certain files not be tracked or if you create a folder it will ignore everything in the folder 
