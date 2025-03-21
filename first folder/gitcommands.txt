@@ -2,10 +2,11 @@ Important information
 empty folders wont appear in git repository with out .git keep
 
 Commands
-git add . - adds in everything that is in the git repository
-git add "file name" - adds everything that is in a specfic file to the git repository
-git commit - commits the changes,
-git commit -m "" - commits the changes with a note attached
+git add . - adds in everything that is in the git repository to the staging area
+git add "file name" - adds everything that is in a specfic file to the git repository staging area
+git commit - commits the changes to the staging area
+git commit -m "" - commits the changes with a note attached to the staging area
 git status - shows the current status of git repository
 git mv .\ - lets you rename a file in the git hub repository 
 .gitkeep - formats a file to send empty folders to git repository
+git push -  sends everything to the github 
