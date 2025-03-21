@@ -1,5 +1,6 @@
 Important information
 empty folders wont appear in git repository with out .git keep
+git commits should be specifc current tense under 50 chracters
 
 Commands
 git add . - adds in everything that is in the git repository to the staging area
