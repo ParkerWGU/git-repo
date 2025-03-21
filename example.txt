@@ -1,6 +1,0 @@
-this is an example file 
-
-this is a new line
-
-
-and another on
