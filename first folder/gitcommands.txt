@@ -10,3 +10,6 @@ git status - shows the current status of git repository
 git mv .\ - lets you rename a file in the git hub repository 
 .gitkeep - formats a file to send empty folders to git repository
 git push -  sends everything to the github 
+git restore --staged "file name" - takes a specfic file out of the staging area
+git restore --staged . - takes all files in the staging area out of the staging area
+git restore . - deletes all changes made that arent in the staging area 
