@@ -20,3 +20,4 @@ git checkout main - takes you back to the main working git repository
 git log --oneline - only shows you commit message and shortens id better for readability
 git revert commit id - removes a specifc change in the git history but not the history
 .gitignore - everything put in this file will be ignored by git, usefull for log files you can add file name to .gitignore to make certain files not be tracked or if you create a folder it will ignore everything in the folder 
+git pull - pulls any changes in the main git repository 
