@@ -1,6 +1,8 @@
 Important information
 empty folders wont appear in git repository with out .git keep
 git commits should be specifc current tense under 50 chracters
+tags let us look at a referance to commit
+
 
 Commands
 git add . - adds in everything that is in the git repository to the staging area
@@ -21,3 +23,5 @@ git log --oneline - only shows you commit message and shortens id better for rea
 git revert commit id - removes a specifc change in the git history but not the history
 .gitignore - everything put in this file will be ignored by git, usefull for log files you can add file name to .gitignore to make certain files not be tracked or if you create a folder it will ignore everything in the folder 
 git pull - pulls any changes in the main git repository 
+git tag issue123 commit id - lightweight tag
+git tag -a v1.1 -m "Version 1.0" commit id - annotated tag can use -am but -a -m is clearer 
