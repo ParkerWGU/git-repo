@@ -4,6 +4,7 @@ git commits should be specifc current tense under 50 chracters
 tags let us look at a referance to commit
 
 
+
 Commands
 git add . - adds in everything that is in the git repository to the staging area
 git add "file name" - adds everything that is in a specfic file to the git repository staging area
@@ -25,3 +26,11 @@ git revert commit id - removes a specifc change in the git history but not the h
 git pull - pulls any changes in the main git repository 
 git tag issue123 commit id - lightweight tag
 git tag -a v1.1 -m "Version 1.0" commit id - annotated tag can use -am but -a -m is clearer 
+git tag --list -list tags 
+git tag -l - also list tags 
+git tag -l "v2*" - * is used as a wild card character here
+git tag -l -n - lists tags with annotations
+git show v1.1 - work tags
+git diff v1.0..v1.1 - shows changes that took place between the two versions
+git tag --delete v1.1 - deletes selected tag
+git tag --d v1.1 - deletes selected tag
